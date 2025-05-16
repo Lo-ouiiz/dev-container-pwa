@@ -33,10 +33,10 @@ This template is ideal for quickly starting vanilla JavaScript/TypeScript PWA pr
 
 ## 🚀 Getting Started
 
-1. Clone the repo and switch to the **template** branch:
+1. Clone the repo and switch to the **template-vite-vanilla** branch:
    ```bash
-   git clone <your-repo-url>
-   git switch template
+   git clone https://github.com/Lo-ouiiz/dev-container-pwa.git
+   git switch template-vite-vanilla
    ```
 2. Open the project in VS Code and click **Reopen in Container** to start the dev container.
 
