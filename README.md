@@ -1,42 +1,70 @@
-# 🧱 Dev Container Environment
+# 🚀 PWA Starter Template - Vanilla
 
-This development environment provides **Node.js 20** with VS Code extensions and a few configurations.
+This is a ready-to-use **Progressive Web App (PWA) starter template** built with **Vite** and **TypeScript**, configured for vanilla JavaScript/TypeScript projects.
 
 ## 📋 Table of Contents
 
 - [🎯 Purpose](#-purpose)
+- [⚙️ Features](#-features)
 - [🚀 Getting Started](#-getting-started)
-- [⚙️ Configuration](#-configuration)
-- [🔌 Included VS Code Extensions](#-included-vs-code-extensions)
+- [🛠️ Scripts](#-scripts)
+- [📁 Project Structure](#-project-structure)
 - [💡 Tips](#-tips)
 
 ## 🎯 Purpose
 
-This container includes **no project dependencies**.
+Provide a functional PWA starter project with a modern development environment including:
 
-Use it to start a new JavaScript/TypeScript/PWA project by running `npm init` or `npm create vite@latest`.
+- Vite + TypeScript
+- ESLint + Prettier configured
+- PWA support with `vite-plugin-pwa`
+- Sass support using `sass-embedded`
+- Service Worker and Web App Manifest setup
+
+This template is ideal for quickly starting vanilla JavaScript/TypeScript PWA projects without extra frameworks.
+
+## ⚙️ Features
+
+- Fast development with Vite
+- PWA ready: offline support, manifest, icons
+- Linting and formatting with ESLint and Prettier
+- Sass styling with `sass-embedded`
+- Forwarded port 3000 for local development server
 
 ## 🚀 Getting Started
 
-1. Open this folder in VS Code.
-2. Click **Reopen in Container**.
-3. Run your project creation command or initialize a `package.json`.
+1. Clone the repo and switch to the **template** branch:
+   ```bash
+   git clone <your-repo-url>
+   git switch template
+   ```
+2. Open the project in VS Code and click **Reopen in Container** to start the dev container.
 
-## ⚙️ Configuration
+3. Install dependencies.
 
-- 🔌 Port **3000** is forwarded by default (for local web servers).
-- 👤 The user inside the container is `node` (non-root).
+   ```bash
+   npm install
+   ```
 
-## 🔌 Included VS Code Extensions
+4. Start the development server.
 
-- `dbaeumer.vscode-eslint` — JavaScript/TypeScript linting
-- `esbenp.prettier-vscode` — code formatting
-- `mhutchie.git-graph` — Git graphical visualization
-- `formulahendry.auto-rename-tag` — automatic HTML tag renaming
-- `formulahendry.auto-close-tag` — automatic HTML tag closing
-- `syler.sass-indented` — support for indented Sass syntax
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:5173](http://localhost:5173) in your browser to see your PWA in action.
+
+## 🛠️ Scripts
+
+- `npm run dev` — start development server
+- `npm run build` — build for production
+- `npm run preview` — locally preview production build
+- `npm run lint` — run ESLint on source files
+- `npm run format` — format source files with Prettier
 
 ## 💡 Tips
 
-- Consider adding a `.eslintrc` and `.prettierrc` file to your projects.
-- You can customize settings in `.vscode/settings.json` as needed.
+- Customize the PWA manifest and icons in the `vite.config.ts` file.
+- Add or update Sass files inside `src/` and import them in `main.ts`.
+- Configure ESLint and Prettier rules to fit your coding style.
+- Use the dev container for a consistent environment with all dependencies installed.
