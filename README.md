@@ -1,13 +1,6 @@
 # 🧱 Dev Container Environment
 
-This development environment provides **Node.js 20** with the following VS Code extensions:
-
-- 🛠️ ESLint
-- 🎨 Prettier
-- 🌿 Git Graph
-- 🔄 Auto Rename Tag
-- ❌ Auto Close Tag
-- 💅 Sass Indented
+This development environment provides **Node.js 20** with VS Code extensions and a few configurations.
 
 ## 📋 Table of Contents
 
