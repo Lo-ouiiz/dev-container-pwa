@@ -8,7 +8,6 @@ This is a ready-to-use **Progressive Web App (PWA) starter template** built with
 - [⚙️ Features](#-features)
 - [🚀 Getting Started](#-getting-started)
 - [🛠️ Scripts](#-scripts)
-- [📁 Project Structure](#-project-structure)
 - [💡 Tips](#-tips)
 
 ## 🎯 Purpose
@@ -29,7 +28,7 @@ This template is ideal for quickly starting vanilla JavaScript/TypeScript PWA pr
 - PWA ready: offline support, manifest, icons
 - Linting and formatting with ESLint and Prettier
 - Sass styling with `sass-embedded`
-- Forwarded port 3000 for local development server
+- Forwarded port 5173 for local development server
 
 ## 🚀 Getting Started
 
@@ -60,7 +59,6 @@ This template is ideal for quickly starting vanilla JavaScript/TypeScript PWA pr
 - `npm run build` — build for production
 - `npm run preview` — locally preview production build
 - `npm run lint` — run ESLint on source files
-- `npm run format` — format source files with Prettier
 
 ## 💡 Tips
 
